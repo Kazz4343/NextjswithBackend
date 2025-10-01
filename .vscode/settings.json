@@ -4,5 +4,8 @@
     "editor.wordWrap": "on",
     "editor.fontFamily": "'Cascadia Code'",
     "terminal.integrated.fontFamily": "'Cascadia Code'",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "cSpell.ignoreWords": [
+        "Kazz"
+    ]
 }
