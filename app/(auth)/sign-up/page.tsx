@@ -1,7 +1,11 @@
 "use client"
 
+import CountrySelectField from "@/components/forms/CountrySelectField";
+import FooterLink from "@/components/forms/FotterLink";
 import InputField from "@/components/forms/InputField";
+import SelectField from "@/components/forms/SelectField";
 import { Button } from "@/components/ui/button";
+import { INVESTMENT_GOALS, PREFERRED_INDUSTRIES, RISK_TOLERANCE_OPTIONS } from "@/lib/constants";
 import { useForm } from "react-hook-form"; 
 
 export default function SignUp() {
@@ -9,7 +13,7 @@ export default function SignUp() {
   const {
     register,
     handleSubmit,
-    watch,
+    control,
     formState : { errors, isSubmitting },
  } = useForm<SignUpFormData>({
     defaultValues: {
@@ -64,9 +68,55 @@ export default function SignUp() {
                     validation={{ required: 'Password is required', minLength: 8 }}
                 />
 
+                <SelectField
+                    name="investmentGoals"
+                    label="Investment Goals"
+                    placeholder="Select your investment goal"
+                    options={INVESTMENT_GOALS}
+                    control={control}
+                    error={errors.investmentGoals}
+                    required
+                />
+
+                <SelectField
+                    name="riskTolerance"
+                    label="Risk Tolerance"
+                    placeholder="Select your investment goal"
+                    options={RISK_TOLERANCE_OPTIONS}
+                    control={control}
+                    error={errors.riskTolerance}
+                    required
+                />
+
+                <SelectField
+                    name="preferredIndustry"
+                    label="Preferred Industry"
+                    placeholder="Select your investment goal"
+                    options={PREFERRED_INDUSTRIES}
+                    control={control}
+                    error={errors.preferredIndustry}
+                    required
+                />
+
+                <CountrySelectField 
+                  name='country'
+                  label="Country"
+                  placeholder='Select your country'
+                  control={control}
+                  error={errors.country}
+                  required
+                />
+                
           <Button type="submit" disabled={isSubmitting} className="yellow-btn w-full mt-5">
             {isSubmitting ? 'Creating Account' : 'Start Your Investing Journey'}
           </Button>
+
+          <FooterLink 
+          text='already have an account?' 
+          linkText="Sign in"
+          href="/sign-in"
+          />
+
         </form>
     </>
   )
