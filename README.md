@@ -1,34 +1,39 @@
-## Next js with Backend 
+# 🌐 Next.js Investment Sign-Up Form (Frontend Only)
 
-First, run the development server:
+A responsive and modern **investment sign-up & personalization form** built with **Next.js 14**, **TypeScript**, **React Hook Form**, **Zod**, and **shadcn/ui**.  
+This project focuses purely on the **frontend experience** — form validation, clean UI components, and smooth user interactions.
 
+![App Preview](public/screenshot.png)  
+*(Add your form screenshot here)*
+
+---
+
+## 🧰 Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| **Next.js 14 (App Router)** | Framework for React-based SSR & routing |
+| **TypeScript** | Type-safe development |
+| **React Hook Form + Zod** | Form management & validation |
+| **shadcn/ui + TailwindCSS** | Modern, accessible UI components |
+| **Vercel** | Deployment platform (optional) |
+
+---
+
+## ✨ Features
+
+- 📋 **Form validation** using Zod + RHF  
+- 🌏 **Custom country & industry select** fields  
+- ⚡ **Blur-based validation** for better UX  
+- ♻️ **Reusable form components** (`InputField`, `SelectField`, etc.)  
+- 🧠 **Mock submission** (frontend-only; console log)  
+- 🎨 **Responsive design** with TailwindCSS  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/Kazz4343/NextjswithBackend.git
+cd NextjswithBackend
