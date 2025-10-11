@@ -1,10 +1,15 @@
 # 🌐 Next.js Investment Sign-Up Form (Frontend Only)
 
 A responsive and modern **investment sign-up & personalization form** built with **Next.js 14**, **TypeScript**, **React Hook Form**, **Zod**, and **shadcn/ui**.  
-This project focuses purely on the **frontend experience** — form validation, clean UI components, and smooth user interactions.
+This project focuses purely on the **frontend experience** — validation, component design, and smooth UI interactions.
 
-![App Preview](public/screenshot.png)  
-*(Add your form screenshot here)*
+---
+
+## 🏞️ Preview
+
+| Home Page | Login Page | Sign-Up Page |
+|------------|-------------|---------------|
+| ![Homepage](public/assets/images/homepage.png) | ![Login](public/assets/images/login.png) | ![Sign Up](public/assets/images/signup.png) |
 
 ---
 
@@ -12,28 +17,35 @@ This project focuses purely on the **frontend experience** — form validation, 
 
 | Technology | Purpose |
 |-------------|----------|
-| **Next.js 14 (App Router)** | Framework for React-based SSR & routing |
-| **TypeScript** | Type-safe development |
-| **React Hook Form + Zod** | Form management & validation |
-| **shadcn/ui + TailwindCSS** | Modern, accessible UI components |
-| **Vercel** | Deployment platform (optional) |
+| **Next.js 14 (App Router)** | Framework for React-based routing |
+| **TypeScript** | Type safety |
+| **React Hook Form + Zod** | Form handling & validation |
+| **shadcn/ui + TailwindCSS** | UI components & styling |
+| **Vercel (optional)** | Deployment |
 
 ---
 
 ## ✨ Features
 
-- 📋 **Form validation** using Zod + RHF  
-- 🌏 **Custom country & industry select** fields  
-- ⚡ **Blur-based validation** for better UX  
-- ♻️ **Reusable form components** (`InputField`, `SelectField`, etc.)  
-- 🧠 **Mock submission** (frontend-only; console log)  
-- 🎨 **Responsive design** with TailwindCSS  
+- 📋 **Form validation** with React Hook Form + Zod  
+- 🌏 **Dynamic dropdowns** for country, risk tolerance, and industries  
+- ⚡ **Blur-based validation** for smoother UX  
+- ♻️ **Reusable form components** (`InputField`, `SelectField`, `CountrySelectField`)  
+- 🎨 **Responsive layout** with TailwindCSS  
+- 🧠 **Mock submission only (frontend project)**  
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Kazz4343/NextjswithBackend.git
-cd NextjswithBackend
+cd NextjsProject
+
+Author
+Kritsada Rodrit
+Front-End Developer in progress 🚀
+GitHub @Kazz4343
+
+
