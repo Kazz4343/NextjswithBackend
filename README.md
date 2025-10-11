@@ -9,7 +9,7 @@ This project focuses purely on the **frontend experience** — validation, compo
 
 | Home Page | Login Page | Sign-Up Page |
 |------------|-------------|---------------|
-| ![Homepage](public/assets/images/homepage.png) | ![Login](public/assets/images/login.png) | ![Sign Up](public/assets/images/signup.png) |
+| ![Homepage](/public/homepage.png) | ![Login](/public/login.png) | ![Sign Up](/public/signup.png) |
 
 ---
 
@@ -42,8 +42,9 @@ This project focuses purely on the **frontend experience** — validation, compo
 ```bash
 git clone https://github.com/Kazz4343/NextjswithBackend.git
 cd NextjsProject
+```
 
-Author
+#### Author
 Kritsada Rodrit
 Front-End Developer in progress 🚀
 GitHub @Kazz4343
