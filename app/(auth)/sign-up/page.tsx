@@ -1,7 +1,7 @@
 "use client"
 
 import CountrySelectField from "@/components/forms/CountrySelectField";
-import FooterLink from "@/components/forms/FotterLink";
+import FooterLink from "@/components/forms/FooterLink";
 import InputField from "@/components/forms/InputField";
 import SelectField from "@/components/forms/SelectField";
 import { Button } from "@/components/ui/button";
@@ -9,7 +9,7 @@ import { INVESTMENT_GOALS, PREFERRED_INDUSTRIES, RISK_TOLERANCE_OPTIONS } from "
 import { useForm } from "react-hook-form"; 
 
 export default function SignUp() {
- 
+
   const {
     register,
     handleSubmit,
@@ -20,10 +20,10 @@ export default function SignUp() {
       fullName: '',
       email: '',
       password: '',
-      country: 'US',
-      investmentGoals: 'Growth',
-      riskTolerance: 'Medium',
-      preferredIndustry: 'Technology'
+      country: '',
+      investmentGoals: '',
+      riskTolerance: '',
+      preferredIndustry: ''
     },
     mode: 'onBlur'
  })
